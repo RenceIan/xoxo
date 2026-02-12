@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>For Keziah - Memories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Satisfy&family=Source+Sans+3:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-prev="index.html" data-next="letters.html">
+    <div class="page-glow"></div>
+
+    <main class="page">
+      <div class="page-frame">
+        <div class="page-header">
+          <p class="issue">Issue 01 · February 14</p>
+          <p class="page-number">02</p>
+        </div>
+
+        <section class="section valentine-solo" id="valentine">
+          <div class="section-header reveal">
+            <p class="section-eyebrow">Valentine</p>
+            <h2>One letter, all my heart</h2>
+            <p>A simple envelope, a few photos, and an appreciation note just for you.</p>
+          </div>
+
+          <div class="valentine-layout">
+            <article class="letter reveal is-open valentine-letter">
+              <div class="letter-envelope">
+                <div class="letter-flap"></div>
+                <div class="letter-body"></div>
+                <div class="letter-content">
+                  <h3>Happy Valentine's Day</h3>
+                  <p>
+                    Dear Kez,
+                    <br />
+                    Every moment with you feels like a gift. Thank you for the memories
+                    we've built together for teaching me to play SAMP, for the endless
+                    laughter, and for all those hours exploring virtual worlds side by side.
+                    But what I'm most grateful for are the quiet moments between the chaos,
+                    the way you make me feel seen and understood. You've brought so much
+                    light into my life, and I can't imagine my days without you. Happy
+                    Valentine's Day to the person who means everything to me.
+                  </p>
+                  <p class="letter-sign">Always, Adi</p>
+                </div>
+              </div>
+            </article>
+
+            <div class="valentine-photos reveal">
+              <div class="valentine-photo" style="--photo: url('assets/memo/samp1.jpg')"></div>
+              <div class="valentine-photo" style="--photo: url('assets/memo/roblox1.png')"></div>
+              <div class="valentine-photo" style="--photo: url('assets/memo/roblox2.png')"></div>
+              <div class="valentine-photo" style="--photo: url('assets/memo/samp2.png')"></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="page-nav">
+          <a class="btn ghost" href="index.html">Previous page</a>
+          <a class="btn" href="letters.html">Next page</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Made for Kez - <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
